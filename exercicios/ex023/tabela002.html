@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -29,6 +30,12 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         tbody tr:nth-child(2n) {
@@ -184,6 +191,7 @@
             </tr>
         </tfoot>
 
-    </table>            
+    </table> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, ut quam eum quis maxime explicabo molestias vero quo saepe esse est nihil modi non delectus voluptatibus qui fugit consectetur eveniet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nemo sed? Cum, iste mollitia culpa adipisci est possimus, ea quae magni nulla corporis tempore ipsum voluptatem in laboriosam totam officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel, delectus veritatis, expedita provident ea optio similique aperiam sint aliquid quasi voluptas, saepe eveniet sunt dolore at ipsam soluta numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore eos, a error, consectetur ratione exercitationem commodi eveniet beatae nihil quasi itaque odio molestias blanditiis animi soluta accusantium possimus mollitia?</p>           
 </body>
 </html>
